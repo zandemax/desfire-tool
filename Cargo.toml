@@ -1,0 +1,11 @@
+[package]
+name = "desfire-tool"
+version = "0.1.0"
+authors = ["Maximilian Zander <maximilian.zander@zmnet.de>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.0"
+freefare = "0.2.0"
+quicli = "0.4"
+structopt = "0.2"
