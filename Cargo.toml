@@ -1,11 +1,17 @@
 [package]
 name = "desfire-tool"
 version = "0.1.0"
-authors = ["Maximilian Zander <maximilian.zander@zmnet.de>"]
+authors = ["Maximilian Zander <zdmx@zmnet.de>"]
 edition = "2018"
 
 [dependencies]
 libc = "0.2.0"
 freefare = "0.2.0"
+freefare-sys = "0.2.0"
+nfc = "0.1.11"
+nfc-sys = "0.1.5"
 quicli = "0.4"
 structopt = "0.2"
+text_io = "0.1.7"
+rand = "0.6"
+colored = "1.8"
